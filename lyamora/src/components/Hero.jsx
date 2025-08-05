@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className='min-h-screen flex flex-col justify-center items-center px-4 bg-gradient-to-br from-moraLight to-white'>
+    <section className='min-h-screen flex flex-col justify-center items-center px-4 bg-gradient-to-b from-moraLight to-white'>
         <h1 className='text-4xl md:text-6xl font-bold mb-4 text-lyamora'>
             Termos Personalizados con Grabado Láser
         </h1>
