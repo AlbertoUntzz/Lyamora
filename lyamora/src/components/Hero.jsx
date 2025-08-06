@@ -9,7 +9,7 @@ export default function Hero() {
         <p className='text-lg md:text-xl max-w-xl mb-6 text-gray-700'>
             Crea un termo único con tu nombre, logo o frase especial. Calidad profesional en acero inoxidable.
         </p>
-        <a href="#catalogo">
+        <a href="Catalogo.jsx">
             <button className='bg-lyamora text-white px-6 py-3 rounded-full shdow hover:bg-purple-800 transition'>
                 Ver Catalogo
             </button>

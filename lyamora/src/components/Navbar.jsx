@@ -1,11 +1,12 @@
 import React from 'react'
+import lya_mora_logo from '../assets/lya_mora_logo.gif'
 
 export default function Navbar() {
   return (
     <nav class="sticky top-8 max-w-screen-xl px-10 py-6 mx-auto rounded-xl bg-white/20 backdrop-blur-md backdrop-saturate-150 border border-white/30 shadow-sm">
       <div class="container flex flex-wrap items-center justify-between mx-auto text-purple-300">
-        <a href="#" class="mr-4 block cursor-pointer py-1.5 text-xl font-bold text-purple-900">
-          Lyamora
+        <a href="#" class="mr-4 block cursor-pointer text-xl font-bold text-purple-900">
+          <img src={lya_mora_logo} alt="Lyamora logo" class= "h-15"></img>
         </a>
  
         <div class="hidden lg:block">
