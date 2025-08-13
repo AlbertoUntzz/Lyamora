@@ -3,16 +3,15 @@ import lya_mora_logo from '../assets/lya_mora_logo.gif'
 
 export default function Navbar() {
   return (
-    <nav class="sticky top-8 max-w-screen-xl px-10 py-4 mx-auto rounded-xl bg-white/20 backdrop-blur-sm backdrop-saturate-150 border border-white/25 shadow-sm">
-      <div class="container flex flex-wrap items-center justify-between mx-auto text-purple-300">
+    <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 max-w-screen-sm px-10 py-3 mx-auto rounded-xl bg-white/20 backdrop-blur-sm backdrop-saturate-150 border border-white/20 shadow-sm z-50 transition-all duration-300">
+      <div class="container flex flex-wrap items-center justify-center mx-auto text-purple-300">
         <a href="#" class="mr-4 block cursor-pointer text-xl font-bold text-purple-900">
-          <img src={lya_mora_logo} alt="Lyamora logo" class= "h-15"></img>
         </a>
  
         <div class="hidden lg:block">
           <ul class="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-8">
             <li class="flex items-center p-1 text-lg gap-x-2 text-purple-900 hover:text-purple-600 transition-colors">
-             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="h-6 w-6">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
               </svg>
@@ -22,10 +21,13 @@ export default function Navbar() {
             </li>
             <li class="flex items-center p-1 text-lg gap-x-2 text-purple-900 hover:text-purple-600 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
+                </svg>
+
               </svg>
               <a href="#" class="flex items-center">
-                Account
+                Contacto
               </a>
             </li>
             <li class="flex items-center p-1 text-lg gap-x-2 text-purple-900 hover:text-purple-600 transition-colors">
