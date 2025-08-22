@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Hero from './components/Hero.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 const router = createBrowserRouter([
