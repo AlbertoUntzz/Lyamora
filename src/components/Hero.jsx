@@ -1,10 +1,14 @@
 import React from 'react'
 import termo_muestra from '../assets/termo_muestra.png'
 import '../styles/animation.css'
+import Logo from '../assets/Logo.gif'
 
 export default function Hero() {
   return (
     <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-purple-300 to-purple-100 px-6">
+      <div>
+        <img src={Logo} alt="Logo" class="fixed top-4 left-3 h-30 w-auto"/>
+      </div>
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
     
     <div class="text-center md:text-left animate-fadeIn">

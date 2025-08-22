@@ -1,5 +1,5 @@
 import React from 'react'
-import lya_mora_logo from '../assets/lya_mora_logo.gif'
+
 
 export default function Navbar() {
   return (
